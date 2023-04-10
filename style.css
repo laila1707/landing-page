@@ -396,7 +396,7 @@ input {
       background: #0a3010;
       margin: 0 10px 10px 0;
       padding: 10px 0;
-      color: rgb(255, 255, 255);
+      color: rgb(255, 255, 255,1);
       text-align: center;
       letter-spacing: 1px;
     }
