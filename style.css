@@ -317,3 +317,12 @@ input {
 #submit-form:hover{
     background-color: #0f740f;
 }
+
+#skilvul{
+    height: 50px;
+    width: 90px;
+}
+#danone{
+    height: 60px;
+    width: 60px;
+}
