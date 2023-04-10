@@ -97,17 +97,17 @@ body{
     margin-top: 20px;
     line-height: 20px;
     margin-bottom: 25px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #content p{
     font-family: 'Poppins';
     font-weight: 60;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 150%;
     color: #1b3620;
     margin-bottom: 45px;
-    color: #b2b4b2;
+    color: #9da09d;
 }
 
 #pic1 {
@@ -119,17 +119,19 @@ body{
 }
 
 #logo{
-    width: 100%;
+    width: 115px;
+    height: 40px;
 }
 
 img {
-    border-radius: 5px 5px 0 0;
-    width: 10%;
+    border-radius: 5px 5px 5px 5px;
+    height: 120px;
+    width: 120px;
   }
 
 .card {
-    width: 100%;
-    border-radius: 5px;
+    width: 80%;
+    margin-left: 8rem;
 }
 
 #fitur{
@@ -141,12 +143,177 @@ img {
     font-size: 35px;
     line-height: 46px;
     text-align: center;
-    color: #30a834;
+    color: #166f19;
     padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 .card{
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #81f46b;
+    padding-bottom: 5px;
 }
 
+.fitur1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.card-img{
+    transition: 0.3s;
+    border-radius: 0px;
+    flex: 0 0 10%; 
+    margin-right: 20px;
+    padding-left: 100px;
+}
+
+.card-content {
+    letter-spacing: 1px;
+    margin-top: 10px;
+    flex: 1;
+    padding-right: 100px;
+  }
+
+.card-content h4 {
+    letter-spacing: 1px;
+    color: #010101;
+    font-size: 17px;
+}
+.card-content p{
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #4b564b;
+}
+
+.fitur2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.fitur3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.fitur4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+.form-join {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    min-width: 370px;
+    margin-left: 15rem;
+    margin-top: 90px;
+}
+.card-form{
+    display: flex;
+}
+.left {
+    flex: 1;
+    height: 480px;
+    background-color: #38cf3d;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    padding-left: 30px;
+    padding-right: 60px;
+}
+.left-form h2{
+    color: #201e1c;
+    line-height: 35px;
+}
+.right-form h2{
+    text-align: center;
+}
+.left {
+    display: flex;
+    flex: 1;
+    height: 522px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.left-form {
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px
+}
+
+.left-form p {
+    font-size: 0.9rem;
+}
+
+.left-form a{
+    text-decoration: none;
+}
+
+.left-form a{
+    color: #2f3f2d;
+}
+.left-form a:hover{
+    color: blue;
+    font-size:large;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.right-form.left-form {
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+
+input {
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+#check{
+    font-size: 12px;
+}
+
+#submit-form{
+    width: 89px;
+    height: 32px;
+    border: 1px solid #30a834;
+    background-color: #30a834;
+    border-radius: 10px;
+    padding: 4px 15px;
+    color: #FFFFFF;
+    margin-left: 110px;
+}
+
+#submit-form:hover{
+    background-color: #0f740f;
+}
