@@ -326,3 +326,80 @@ input {
     height: 60px;
     width: 60px;
 }
+.form-join{
+    margin-bottom: 20%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul {
+    list-style: none;
+  }
+  .footer {
+    background-color: rgb(93, 107, 93);
+    padding: 20px 0;
+  }
+  .footer-col {
+    width: 20%;
+    padding: 0 15px;
+  }
+
+  .footer-col p{
+    color: #bbbbbb;
+    font-size: small;
+  }
+  .footer-col h4 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgba(48, 194, 22, 0.8);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover {
+    color: rgba(67, 184, 24, 0.8);
+    padding-left: 8px;
+  }
+
+  .fixed-footer {
+      width: 100%;
+      position: relative;
+      background: #0a3010;
+      margin: 0 10px 10px 0;
+      padding: 10px 0;
+      color: rgba(255, 255, 255, 1);
+      text-align: center;
+      letter-spacing: 1px;
+    }
+    .fixed-footer {
+      bottom: 0;
+    }
