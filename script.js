@@ -45,7 +45,7 @@ function validateFormData(isiform) {
 function submit() {
     const warning = document.getElementById('warning');
     if (!validateFormData(handleGetFormData())) {
-        warning.innerHTML = "Form salah, Silahkan cek kembali";
+        warning.innerHTML = "Periksa form anda sekali lagi";
     } else {
         warning.innerHTML = ""
     }
