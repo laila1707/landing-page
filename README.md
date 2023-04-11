@@ -12,6 +12,7 @@ Dalam visi Danone One Planet One Health, Danone mendorong semua orang untuk memi
 
 ### Deskripsi Tugas Landing Page
 Homepage bisa berisi informasi mengenai visi dan misi perusahaan, link ke halaman lainnya, daftar kontak, dan berisi informasi sesuai dengan konteks tema dan tujuan website tersebut.
+
 Dalam landing page ini terdapat beberapa halaman yaitu :
 * Halaman utama yang berisi navbar dan konten 
 * Halaman layanan atau fitur 
