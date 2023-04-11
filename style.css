@@ -50,6 +50,8 @@ nav ul{
 
 button{
     cursor: pointer;
+    font-family: "Poppins";
+    font-size: 12px;
 }
 
 #login{
@@ -95,19 +97,35 @@ body{
     color: #30a834;
     font-weight: 400;
     margin-top: 20px;
-    line-height: 20px;
+    line-height: 22px;
     margin-bottom: 25px;
     font-size: 50px;
 }
 
-#content p{
+#description{
     font-family: 'Poppins';
-    font-weight: 60;
+    font-weight: 20;
     font-size: 16px;
     line-height: 150%;
-    color: #1b3620;
-    margin-bottom: 45px;
-    color: #9da09d;
+    color: #58625bac;
+    margin-bottom: 20px;
+}
+
+#mulai{
+    width: 130px;
+    height: 32px;
+    border: 1px solid #30a834;
+    background-color: #30a834;
+    border-radius: 10px;
+    padding: 4px 15px;
+}
+#mulai a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+#mulai:hover{
+    background-color: #0f740f;
 }
 
 #pic1 {
@@ -139,11 +157,12 @@ img {
     margin-left: 25px;
     margin-right: 25px;
 }
-.card h2{ font-weight: 600;
+.card h2{ 
+    font-weight: 800;
     font-size: 35px;
     line-height: 46px;
     text-align: center;
-    color: #166f19;
+    color: #127216;
     padding-top: 20px;
     margin-bottom: 30px;
 }
