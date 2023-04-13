@@ -88,7 +88,7 @@ body{
 
 #content{
     display: flex;
-    margin-top: 150px;
+    margin-top: 90px;
     margin-left: 49px;
     margin-right: 49px;
 }
@@ -100,6 +100,10 @@ body{
     line-height: 22px;
     margin-bottom: 25px;
     font-size: 50px;
+}
+
+.cta {
+    margin-top: 80px;
 }
 
 #description{
@@ -131,10 +135,8 @@ body{
 
 #pic1 {
     width: 702px;
-    height: 400px;
+    height: 465px;
     left: 689px;
-    top: 50px;
-
 }
 
 #logo{
@@ -154,7 +156,7 @@ img {
 }
 
 #fitur{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 25px;
     margin-right: 25px;
 }
